@@ -1,0 +1,468 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+/*topper start*/
+.box {
+	background-color: #535D69;
+	min-height: 40px; 
+	
+}
+
+.top {
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.top-content {
+	
+	width: 30%;
+	display: inline-block;
+     float: left;
+border: 1px solid red;
+}
+top-content h5{
+	margin-left: 10px;
+
+	width: 100%;
+	color: #DDDFDE;
+}
+
+.top-icon {
+	width: 50%;
+	display: inline-block;
+	float: right;
+	border: 2px solid red;
+}
+.top-icon a img{
+
+} 
+.top-icon
+.top-icon
+.top-icon
+.top-icon button{
+	padding: 50px;
+
+}
+/*topper end*/
+
+
+/*header start*/
+header{
+overflow: hidden;
+}
+.container {
+	margin: 0 auto;
+	width: 80%;
+	/*border: 2px solid black;*/
+	overflow: hidden;
+	
+}
+
+.logo {
+	float: left;
+	margin-top: 6px;
+	width: 18%;
+	/*border:2px solid red; */
+	
+}
+
+.logo img{
+width: 100%;
+
+}
+.menu {
+	float: right;
+	width: 70%;
+	/*border:2px solid red;*/
+	 
+}
+
+.menu ul{
+	float: right;
+
+}
+
+.menu ul li {
+	list-style: none;
+	float: left;
+
+
+}
+.menu ul li a{
+	
+	padding: 10px 20px;
+	display: inline-block;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #929292;
+    text-decoration: none;
+}
+
+.menu ul li a:last-child{
+	 padding-right: 0; 
+}
+.menu ul li a:hover{
+	color: #CB8796;
+}
+
+/*header end*/
+
+/*banner start*/
+.banner{
+background-image: url(../images/cover.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+ 
+}
+
+.banner-content{
+	margin: 100px 0;
+	width: 50%;
+	/*border: 2px solid red;*/
+}
+
+.banner-content h1{
+	margin: 0 0 30px;
+	font-family: sans-serif;
+	font-size: 60px;
+	font-weight:bold; 
+	text-transform:capitalize;
+	color: #FCFCFA;
+
+}
+.banner-content p{
+font-family: sans-serif;
+font-size: 16.5px;
+font-weight: normal;
+text-transform: capitalize;
+color:#FCFCFA; 
+line-height: 25px;
+}
+.banner-content button{
+	margin top: 40px;
+	padding: 5px; 
+	width: 250px.
+	height:50px;
+ background-color:#BE2440;
+ border: none;
+font-family: sans-serif;
+font-size: 14px;
+font-weight: normal;
+color:white;
+text-transform: uppercase;
+ cursor: pointer;
+ transition: .3s;
+}
+.banner-content button:hover{
+	background-color:white;
+	color: #BE2440;
+}
+
+/*banner end*/
+
+
+
+/* works start*/
+.works{
+	margin: 100px 0 60px;
+
+
+}
+.c-title{
+	margin: 0 auto;
+    width: 55%;
+    text-align: center;
+    overflow: hidden;
+
+/*border: 2px solid red;*/
+
+}
+.c-h1{
+	margin: 0 0 20px;
+font-family: sans-serif;
+font-size: 25px;
+font-weight: block;
+color:black;
+text-transform: uppercase;
+
+}
+.c-p{
+	margin: 0;
+font-family: sans-serif;
+font-size: 10px;
+font-weight: normal;
+color:grey;
+text-transform: lowercase;
+line-height: 15px;
+
+}
+.w-content{
+	margin: 40px auto;
+	width: 80%;
+
+/*border: 1px solid black;*/
+}
+.single-item{
+	margin:0 24px; 
+	padding:10px;
+	float: left;
+	width: 25%;
+}
+.s-img{
+	margin: 0 auto;
+width: 40%;
+/*border: 1px solid black;*/
+}
+.s-img img{
+	width: 100%;
+}
+.w-p{
+	margin: 5px auto 10px;
+	padding: 5px;
+	width: 70%;
+font-family: sans-serif;
+font-size: 10px;
+font-weight: bold;
+color:#4F4F4F;
+text-transform: capitalize;
+text-align: center;
+;
+}
+/* works end*/
+
+
+
+/* works2 start*/
+
+.works2{
+	margin: 0 0 150px;
+
+}
+
+.w2_c{
+	width: 45%;
+	float: left;
+
+}
+.w2_c h1{
+	font-family: sans-serif;
+font-size: 23px;
+font-weight: bold;
+color:black;
+text-transform: uppercase;
+line-height: 30px;
+
+}
+.w2_c p{
+font-family: sans-serif;
+font-size: 9px;
+font-weight:normal;
+color:#828282;
+text-transform: lowercase;
+line-height: 15px;
+
+}
+.w2_c button{
+	margin: 25px 0 0;
+	width: 100px;
+	height:25px;
+background-color:#C12441; 
+font-family: sans-serif;
+font-size: 10px;
+font-weight:normal;
+color:white;
+text-transform: uppercase;
+border: none;
+cursor: pointer;
+}
+
+.w2_c button:hover{
+background-color: white;
+color:#C12441; 
+
+}
+
+.w2_video{
+	width: 45%;
+	float: right;
+	border: transparent;
+	 
+}
+
+/* works2 end*/
+/* works3 start*/
+.works3{
+	margin: 80px 0 60px;
+}
+/* works3 end*/
+/* features start*/
+.features{
+	overflow: hidden;
+	display: inline;
+}
+.wrapper-1{
+overflow: hidden;
+}
+
+
+}
+.single{
+	margin: 15px 10px;
+	padding: 10px;
+
+width: 25%;
+float: left;
+border: 1px solid red;
+display: inline-block;
+}
+.f_img{
+	margin: 20px auto;
+	width: 20%;
+
+}
+.f_img img{
+width: 100%;
+
+}
+.f-c{
+	margin: 0 auto;
+	width: 60%;
+}
+.f-h3{
+margin: 0 0 10px;
+font-family: sans-serif;
+font-size: 12px;
+font-weight:bold;
+color:black;
+text-transform:capitalize;
+text-align: center;
+
+
+}
+.f-p{
+width: 100%;
+font-family: sans-serif;
+font-size: 8px;
+font-weight:normal;
+color:#828282;
+text-transform: lowercase;
+line-height: 10px;
+text-align: center;
+
+}
+.wrapper-2{
+overflow: hidden;
+	
+}
+.single{
+margin: 17px 18px;
+padding: 15px;
+width: 25%;
+float: left;
+border:thick;
+display: inline-block;
+}
+.f_img{
+	margin: 20px auto;
+	width: 20%;
+
+}
+.f_img img{
+width: 100%;
+
+}
+.f-c{
+	margin: 0 auto;
+	width: 60%;
+}
+.f-h3{
+margin: 0 0 10px;
+font-family: sans-serif;
+font-size: 12px;
+font-weight:bold;
+color:black;
+text-transform:capitalize;
+text-align: center;
+
+
+}
+.f-p{
+width: 100%;
+font-family: sans-serif;
+font-size: 8px;
+font-weight:normal;
+color:#828282;
+text-transform: lowercase;
+line-height: 10px;
+text-align: center;
+}
+
+
+.f-button{
+margin:50px auto 100px;
+padding: 5px; 
+width: 150px;
+height: 35px;
+font-family: sans-serif;
+font-size: 10px;
+font-weight:bold;
+color:#E26180;
+text-transform:capitalize;
+border:none;
+cursor: pointer;
+}
+/* features end*/
+/* footer start*/
+.footer1{
+	width: 100%;
+	min-height: 200px;
+	background-color: black;
+
+}
+.f-s1{
+	margin: 0 15px;
+	padding: 15px;
+	width: 25%;
+	float: left;
+border: 1px solid red;
+}
+
+.f-s1 h3{
+margin: 50px auto 30px;
+font-family: sans-serif;
+font-size: 20px;
+font-weight:bold;
+color:#C52144;
+text-transform:capitalize;
+
+
+}
+.f-s1 p{
+font-family: sans-serif;
+font-size: 10px;
+font-weight:bold;
+color:grey;
+text-transform:capitalize;
+
+}
+.footer2{
+	width: 100%;
+	height: 50px;
+	background-color: grey;
+}
+
+.footer2 p{
+margin: 20px auto ;
+font-family: sans-serif;
+font-size: 10px;
+font-weight:normal;
+color:white;
+text-transform:lowercase;
+text-align: center;
+}
+
+/* footer end*/
